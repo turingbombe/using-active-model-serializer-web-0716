@@ -1,1 +1,6 @@
+<%= form_for(@post) do |@f| %>
 <%= render "form" %>
+  <div class="actions">
+    <%= @f.submit "Submit Post"%>
+  </div>
+<% end %>
